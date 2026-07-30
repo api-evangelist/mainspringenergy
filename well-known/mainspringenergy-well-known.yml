@@ -1,0 +1,9 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of the Mainspring Energy corporate host
+host: https://www.mainspringenergy.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
