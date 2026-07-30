@@ -1,8 +1,28 @@
 aid: mainspringenergy
-name: Mainspringenergy
-description: Mainspringenergy is a company surfaced as a portfolio company of khosla-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mainspringenergy.png
+name: Mainspring Energy
+description: >-
+  Mainspring Energy is a Menlo Park, California power-infrastructure company that
+  designs, manufactures, and deploys the Linear Generator, a modular, fuel-flexible
+  onsite power generation system. Its technology delivers firm, dispatchable, and
+  low-emission electricity for data centers, utilities, and industrial and enterprise
+  facilities, running today on natural gas and biogas with a seamless transition to
+  zero-carbon fuels such as hydrogen and ammonia. Backed by Khosla Ventures and other
+  investors, Mainspring has more than one gigawatt of Linear Generator capacity in
+  late-stage development and operation. Mainspring is a hardware and power-systems
+  company and does not currently publish a public developer API, SDK, or developer
+  portal; this profile captures its corporate, security, and compliance surface.
 url: https://raw.githubusercontent.com/api-evangelist/mainspringenergy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Energy
+- Power Generation
+- Clean Energy
+- Distributed Energy
+- Data Centers
+- Hardware
+- Climate
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +51,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.mainspringenergy.com/
+- type: TrustCenter
+  url: security/mainspringenergy-trust-center.yml
+- type: Compliance
+  url: https://app.drata.com/trust/cd627a7d-b3f0-496c-81b8-b3c69cde90da
+- type: DomainSecurity
+  url: security/mainspringenergy-domain-security.yml
+- type: PrivacyPolicy
+  url: https://www.mainspringenergy.com/privacy-policy
+- type: TermsOfService
+  url: https://www.mainspringenergy.com/terms-of-use
+- type: Blog
+  url: https://www.mainspringenergy.com/news-perspectives
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mainspringenergy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
