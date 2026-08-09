@@ -12,17 +12,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mainspringenergy.png
 name: Mainspring Energy
-description: >-
-  Mainspring Energy is a Menlo Park, California power-infrastructure company that
-  designs, manufactures, and deploys the Linear Generator, a modular, fuel-flexible
-  onsite power generation system. Its technology delivers firm, dispatchable, and
-  low-emission electricity for data centers, utilities, and industrial and enterprise
-  facilities, running today on natural gas and biogas with a seamless transition to
-  zero-carbon fuels such as hydrogen and ammonia. Backed by Khosla Ventures and other
-  investors, Mainspring has more than one gigawatt of Linear Generator capacity in
-  late-stage development and operation. Mainspring is a hardware and power-systems
-  company and does not currently publish a public developer API, SDK, or developer
-  portal; this profile captures its corporate, security, and compliance surface.
+description: Mainspring Energy is a Menlo Park, California power-infrastructure company that designs,
+  manufactures, and deploys the Linear Generator, a modular, fuel-flexible onsite power generation system.
+  Its technology delivers firm, dispatchable, and low-emission electricity for data centers, utilities,
+  and industrial and enterprise facilities, running today on natural gas and biogas with a seamless transition
+  to zero-carbon fuels such as hydrogen and ammonia. Backed by Khosla Ventures and other investors, Mainspring
+  has more than one gigawatt of Linear Generator capacity in late-stage development and operation. Mainspring
+  is a hardware and power-systems company and does not currently publish a public developer API, SDK,
+  or developer portal; this profile captures its corporate, security, and compliance surface.
 url: https://raw.githubusercontent.com/api-evangelist/mainspringenergy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -32,7 +29,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-08'
 tags:
 - Company
 - Energy
@@ -65,8 +62,12 @@ common:
   url: https://www.mainspringenergy.com/news-perspectives
 - type: LinkedIn
   url: https://www.linkedin.com/company/mainspringenergy
+- type: Support
+  url: https://www.mainspringenergy.com/contact
 x-enrichment:
   date: '2026-07-20'
   status: minimal
   artifacts_added: 0
   pass: local-v1
+x-merged-from:
+- mainspring-energy
