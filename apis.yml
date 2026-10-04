@@ -47,7 +47,7 @@ tags:
 - Power Generation
 - Clean Energy
 - Distributed Energy
-- Data-Center
+- Data Center
 - Hardware
 - Climate
 tags_raw:
@@ -59,6 +59,7 @@ tags_raw:
 - Data Centers
 - Hardware
 - Climate
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
